@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Identity by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<h1> Pasajero</h1>
+						<header>
+							<span class="avatar"><img src="img/pasajero.png" width="40%" height="40%" alt="" /></span>
+							<form action="inicio.php" method="POST">
+								<h2>Correro</h2>
+								<input type="text" class="form-control" placeholder="Username">
+								<br>
+								<h2>Contraseña</h2>
+								<input type="text" class="form-control" placeholder="Contraseña">
+								<br>
+								<button type="submit" name="action" class="btn btn-primary btn-sm">Iniciar sesion</button>
+							</form>
+							
+						</header>
+						<footer>
+							<ul class="icons">
+								
+								<li><a href="#" class="fa-facebook">Facebook</a></li>
+
+								<li><a href="#" class="fa-google">Google</a></li>
+								
+							</ul>
+						</footer>
+					</section>
+			</div>
+
+		<!-- Scripts -->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener	('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
+</html>
